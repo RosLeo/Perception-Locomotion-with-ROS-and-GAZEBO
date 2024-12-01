@@ -1,0 +1,20 @@
+#---------#
+Terminale 1
+#---------#
+cd /home/vboxuser/P2_Perception
+cd src
+catkin_init_workspace
+cd ..
+catkin_make
+source devel/setup.bash
+roslaunch my_robot world.launch
+
+#---------#
+Terminale 2
+#---------#
+cd /home/vboxuser/P2_Perception
+source devel/setup.bash
+roslaunch ball_chaser ball_chaser.launch
+
+
+
