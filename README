@@ -1,4 +1,6 @@
+**-----------**
 **Primo avvio**
+**-----------**
 cd /home/vboxuser/P2_Perception
 cd src
 catkin_init_workspace
@@ -7,7 +9,10 @@ catkin_make
 source devel/setup.bash
 roslaunch my_robot world.launch
 
-**Avvi successivi**
+**----------------**
+**Avvii successivi**
+**----------------**
+
 #---------#
 Terminale 1
 #---------#
